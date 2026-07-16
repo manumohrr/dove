@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    <h1>Projetos Terceiro Ano 2026</h1>
+  <meta charset="UTF-8" />
 
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>Meus Projetos React Native</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho-conteudo">
+      <div>
+        <p class="identificacao">PORTFÓLIO DE ESTUDOS</p>
+
+        <h1>Meus Projetos</h1>
+
+        <p class="descricao">
+          Um espaço para organizar todos os projetos que eu desenvolver
+          durante os meus estudos de React Native.
+        </p>
+      </div>
+
+      <div class="icone-cabecalho">
+        &lt;/&gt;
+      </div>
+    </div>
+  </header>
+
+  <main class="conteudo">
+    <section class="introducao">
+      <div>
+        <p class="titulo-pequeno">MINHA COLEÇÃO</p>
+
+        <h2>Projetos desenvolvidos</h2>
+
+        <p>
+          Aqui estão alguns dos projetos que fazem parte da minha evolução.
+        </p>
+      </div>
+
+      <div class="contador">
+        <span id="quantidadeProjetos">0</span>
+        <p>projetos</p>
+      </div>
+    </section>
+
+    <!-- Os cards dos projetos serão colocados aqui pelo JavaScript -->
+    <section class="lista-projetos" id="listaProjetos"></section>
+  </main>
+
+  <footer>
+    <p>Feito por Manuela para organizar meus projetos.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
